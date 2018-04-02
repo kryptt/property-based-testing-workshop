@@ -7,3 +7,4 @@ Workshop about Property Based Testing of C++ with RapidCheck.
 / [source code](https://github.com/pmalek/rapidcheck_codedive) 
 / [video](https://www.youtube.com/watch?v=aiapg-3vDcQ))
 - "Property-based testing Using RapidCheck" ([slides](https://dubzzz.github.io/property-based-testing-cpp/talk/talk.v4.html) / [source code](https://github.com/dubzzz/property-based-testing-cpp))
+- "Generating test cases so you don’t have to" ([blog post](https://labs.spotify.com/2015/06/25/rapid-check/))
