@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.8)
+project (workshop_rapidcheck)
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
+add_executable(01 main.cc)
+add_subdirectory("/workshop_rapidcheck/01/rapidcheck")
+target_link_libraries(01 rapidcheck)

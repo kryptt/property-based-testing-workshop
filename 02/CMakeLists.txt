@@ -1,0 +1,13 @@
+cmake_minimum_required (VERSION 2.8)
+project (workshop_rapidcheck)
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
+add_executable(02 main.cc)
+include_directories(/usr/include/rapidcheck)
+target_link_libraries(02 /usr/lib/librapidcheck.a)
+
+#link_directories(/usr/lib)
+#find_library(LIBRAPIDCHECK_LIBRARY librapidcheck.a)
+#if (LIBRAPIDCHECK_FOUND)
+#  include_directories(${LIBRAPIDCHECK_INCLUDE_DIRS})
+#  target_link_libraries (02 ${LIBRAPIDCHECK_LIBRARY})
+#endif (LIBRAPIDCHECK_FOUND)
