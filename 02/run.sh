@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./build/02
+./build/rapidcheck_lib

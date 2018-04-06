@@ -2,5 +2,5 @@
 
 cd build
 cmake ..
-make 01
+make rapidcheck_subdir
 cd ..

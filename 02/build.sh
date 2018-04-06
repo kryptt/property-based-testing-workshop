@@ -2,5 +2,5 @@
 
 cd build
 cmake ..
-make 02
+make rapidcheck_lib
 cd ..
