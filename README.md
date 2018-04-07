@@ -14,6 +14,10 @@ Open docker container.
 
 ## References
 
+- "Testen mit Rapidcheck und Catch" presented @ Heidelberg Chaostreff March 2016
+  (no slides /
+  [blog post](https://michael-herbst.com/c14h-testen-mit-rapidcheck-und-catch.html) /
+  [source code](https://github.com/mfherbst/c14h-rapidcheck-catch))
 - "Property based testing in C++ - How to write 1000s of tests in one sitting?" presented @ code::dive 2016 ([slides](https://cdn2-ecros.pl/event/codedive/files/presentations/2016/Patryk_Malek_Property_based_testing_in_cpp.pdf)
 / [source code](https://github.com/pmalek/rapidcheck_codedive)
 / [video](https://www.youtube.com/watch?v=aiapg-3vDcQ))
