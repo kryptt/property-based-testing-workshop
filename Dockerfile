@@ -21,7 +21,8 @@ RUN git clone -q https://github.com/emil-e/rapidcheck.git /rapidcheck
 
 # build rapidcheck (as libary into /usr/lib/librapidcheck.a) and install headers
 RUN cd /rapidcheck \
-  && cmake . \
+  && cmake -DRC_ENABLE_GTEST=True -DRC_INSTALL_ALL_EXTRAS=True . \
   && make
 RUN mv /rapidcheck/librapidcheck.a /usr/lib/
 RUN mv /rapidcheck/include /usr/include/rapidcheck
+RUN mv /rapidcheck/extras/gtest/include/rapidcheck/gtest.h /usr/include/rapidcheck
