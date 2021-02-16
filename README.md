@@ -1,8 +1,10 @@
 # workshop_rapidcheck
 
-Workshop about Property Based Testing of C++ with RapidCheck.
+Workshop about Property Based Testing in C++.
 
 ## Preparation
+
+Make sure that you set the proxy variables to be able to pull from the docker registry (ask the instructor for help)
 
 Build docker image.
 
@@ -11,17 +13,3 @@ Build docker image.
 Open docker container.
 
   ./run.sh
-
-## References
-
-- "Testen mit Rapidcheck und Catch" presented @ Heidelberg Chaostreff March 2016
-  (no slides /
-  [blog post](https://michael-herbst.com/c14h-testen-mit-rapidcheck-und-catch.html) /
-  [source code](https://github.com/mfherbst/c14h-rapidcheck-catch))
-- "Property based testing in C++ - How to write 1000s of tests in one sitting?" presented @ code::dive 2016 ([slides](https://cdn2-ecros.pl/event/codedive/files/presentations/2016/Patryk_Malek_Property_based_testing_in_cpp.pdf)
-/ [source code](https://github.com/pmalek/rapidcheck_codedive)
-/ [video](https://www.youtube.com/watch?v=aiapg-3vDcQ))
-- "Property-based testing Using RapidCheck" ([slides](https://dubzzz.github.io/property-based-testing-cpp/talk/talk.v4.html) / [source code](https://github.com/dubzzz/property-based-testing-cpp))
-- "Generating test cases so you don’t have to" ([blog post](https://labs.spotify.com/2015/06/25/rapid-check/))
-- [vrcordoba/DockerUbuntuGTestGMock
-](https://github.com/vrcordoba/DockerUbuntuGTestGMock) (installation of GTest and GMock into ubuntu docker image)
