@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.8)
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
-add_executable(rapidcheck_subdir main.cc)
-add_subdirectory("/workshop_rapidcheck/01/ext/rapidcheck")
-target_link_libraries(rapidcheck_subdir rapidcheck)
+add_executable(rapidcheck_lib main.cc)
+include_directories(/usr/include/rapidcheck)
+target_link_libraries(rapidcheck_lib /usr/lib/librapidcheck.a)

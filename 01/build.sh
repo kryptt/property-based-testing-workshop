@@ -2,5 +2,4 @@
 
 cd build
 cmake ..
-make rapidcheck_subdir
-cd ..
+make rapidcheck_lib
