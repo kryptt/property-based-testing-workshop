@@ -1,3 +1,4 @@
 #!/bin/bash
 
-./build/rapidcheck_lib
+[[ main.cc -nt build/test ]] && ./build.sh
+./build/test
